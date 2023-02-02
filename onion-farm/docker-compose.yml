@@ -1,0 +1,17 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: onion-farm_web_1
+      APP_PORT: 5000
+  
+  web:
+    image: ricardobchaves6/onion-farm:v0.0.1-beta
+    restart: on-failure
+    stop_grace_period: 1m
+    volumes:
+      - ${APP_DATA_DIR}/html/:/var/www/html/
+      - ${APP_DATA_DIR}/http.d/:/etc/nginx/http.d/
+      - ${APP_DATA_DIR}/torrc.d/:/etc/torrc.d/
+      - ${APP_DATA_DIR}/tor/:/var/lib/tor/

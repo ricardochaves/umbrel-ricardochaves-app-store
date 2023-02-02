@@ -1,0 +1,28 @@
+manifestVersion: 1
+id: onion-farm
+category: Hosts
+name: Website Onion Network Host
+version: "0.0.1-beta"
+tagline: Simple, database-free blockchain explorer
+description: >-
+  Onion Farm allows for quick and easy hosting of websites on the Onion network, also known as the deep web.
+  
+  Simply upload a zip file containing the website with the index.html file in the root directory and it automatically generates a functional link on the deep web.
+  
+  This means the site will be available on the hidden internet, protected by additional layers of security and privacy.
+  With this project, anyone can have their site online on the deep web in a simple and fast manner, without having to worry about complicated server setup.
+
+releaseNotes: >-
+  This is the first version of the project, a beta version.
+developer: Ricardo Baltazar
+website: https:ricardobaltazar.com
+repo: https://github.com/ricardochaves/onion-farm
+support: https://github.com/ricardochaves/onion-farm/issues
+port: 5000
+gallery:
+  - 1.jpg
+  - 2.jpg
+  - 3.jpg
+path: ""
+defaultUsername: ""
+defaultPassword: ""
