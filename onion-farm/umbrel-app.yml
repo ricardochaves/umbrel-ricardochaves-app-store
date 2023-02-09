@@ -20,6 +20,7 @@ repo: https://github.com/ricardochaves/onion-farm
 support: https://github.com/ricardochaves/onion-farm/issues
 port: 5000
 dependencies: []
+icon: https://raw.githubusercontent.com/ricardochaves/umbrel-apps-gallery/ed104e27ce2b9bac4cc717113faa7d24d3a16516/onion-farm/icon.svg
 gallery:
   - https://raw.githubusercontent.com/ricardochaves/umbrel-apps-gallery/master/onion-farm/1.png
   - https://raw.githubusercontent.com/ricardochaves/umbrel-apps-gallery/master/onion-farm/2.png
