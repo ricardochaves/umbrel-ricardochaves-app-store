@@ -1,7 +1,7 @@
 manifestVersion: 1
 id: onion-farm
 category: Hosts
-name: Website Onion Network Host
+name: Onion Farm
 version: "0.0.1-beta"
 tagline: Simple, database-free blockchain explorer
 description: >-
